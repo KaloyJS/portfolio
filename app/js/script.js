@@ -5,4 +5,11 @@ $(document).ready(function() {
 		play: 5000,
 		pagination: false
 	});
+
+	var typed = new Typed(".typed", {
+		strings: ["Web Developer." , "Student.", "Seeker.", "programmer."],
+		typeSpeed: 140,
+		loop: true,
+		startDelay: 1000
+	});
 });
