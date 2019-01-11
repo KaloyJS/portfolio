@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaloyNayve/portfolio.git"
+  },
+  "author": "kaloy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaloyNayve/portfolio/issues"
+  },
+  "homepage": "https://github.com/KaloyNayve/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-watch": "^5.0.1"
+  }
+}
