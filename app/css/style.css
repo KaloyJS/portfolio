@@ -1,3 +1,11 @@
+body {
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	letter-spacing: 1px;
+
+}
+
 /*slides-navigation*/
 .overlay {
 	width: 100%;
@@ -63,8 +71,43 @@
 /*<-- about section -->*/
 
 .aboutImage {
-	max-width: 100%;
-	
+	max-width: 100%;	
 	border-radius: 100%;
 }
 
+/*<-- skills section -->*/
+
+.skillsSection {
+	background-color: #ffa6c9;
+	color: #fff;
+}
+
+
+.skill {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.chart {
+	position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+.chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.chart .percent {
+	color: #000;
+	line-height: 152px;
+	display: inline-block;
+	font-size: 35px;
+}
+
+.chart .percent:after {
+	content: '%';
+}
