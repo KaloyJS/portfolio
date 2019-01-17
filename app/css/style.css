@@ -77,7 +77,8 @@ body {
 
 /*<-- skills section -->*/
 
-.skillsSection {
+.skillsSection,
+.contactSection {
 	background-color: #ffa6c9;
 	color: #fff;
 }
@@ -164,4 +165,19 @@ body {
 	height: 60px;
 	font-size: 45px;
 	margin-left: -20%;
+}
+
+.contactButton {
+	color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 3px solid #fff;
+    border-radius: 2px;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #ffa6c9;
+	background-color: #fff;
 }
