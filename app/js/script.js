@@ -14,6 +14,38 @@ $(document).ready(function() {
 		startDelay: 1000
 	});
 
+	var typed2 = new Typed(".nodejs", {
+	  // Waits 1000ms after typing "First"
+	  strings: ["Node Js"],
+	  typeSpeed: 140,
+	  loop: false,
+	  startDelay: 1000
+	});
+
+	var typed2 = new Typed(".react", {
+	  // Waits 1000ms after typing "First"
+	  strings: ["react"],
+	  typeSpeed: 140,
+	  loop: false,
+	  startDelay: 1000
+	});
+
+	var typed2 = new Typed(".javascript", {
+	  // Waits 1000ms after typing "First"
+	  strings: ["JavaScript"],
+	  typeSpeed: 140,
+	  loop: false,
+	  startDelay: 1000
+	});
+
+	var typed2 = new Typed(".html", {
+	  // Waits 1000ms after typing "First"
+	  strings: ["HTML5"],
+	  typeSpeed: 140,
+	  loop: false,
+	  startDelay: 1000
+	});
+
 	//Owl carousel settings
 	$('.owl-carousel').owlCarousel({
     loop:true,
@@ -40,6 +72,8 @@ $(document).ready(function() {
       var skillsTopOffset = $(".skillsSection").offset().top;
 
 
+
+
       $(window).scroll(function() {
 
       		if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
@@ -56,5 +90,11 @@ $(document).ready(function() {
 			            }
 			        });
       		}
+      		
       });
+
+
+
+     
+	
 });
