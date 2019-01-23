@@ -181,3 +181,32 @@ body {
 	color: #ffa6c9;
 	background-color: #fff;
 }
+
+/*portfolio section*/
+.section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.filter a {
+	color: #bdc3c7;
+	border: 1px solid #bdc3c7;
+	padding: 10px;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.filter .current {
+	background-color: #ffa6c9;
+	border-color: #ffa6c9;
+	color: #fff;
+}
+
+.filter {
+	text-align: center;
+	width: 100%;
+}
