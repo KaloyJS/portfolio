@@ -328,3 +328,33 @@ body {
 .footerSection {
 	margin: 0;
 }
+
+#navigation {
+	background-color: #ffa6c9;
+	padding: 20px 10px;
+	z-index: 100;
+	width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+#navigation .navbar-brand, .navbar-brand:hover {
+	color: #fff;
+}
+
+#navigation .navbar-toggler-icon {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}

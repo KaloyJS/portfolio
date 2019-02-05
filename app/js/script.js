@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 	//Typed settings
 	var typed = new Typed(".typed", {
-		strings: ["Web Developer." , "coder.", "seeker.", ],
+		strings: ["Web Developer." , "coder.", "seeker.", "spiritual being", "all in all good guy!" ],
 		typeSpeed: 140,
 		loop: true,
 		startDelay: 1000
@@ -127,6 +127,34 @@ $(document).ready(function() {
 
       });
 
-     
-	
+     $("#navigation li a").click(function(e) {
+     	e.preventDefault();
+
+     	var targetElement = $(this).attr("href");
+     	var targetPosition = $(targetElement).offset().top;
+     	$("html, body").animate({
+     		scrollTop: targetPosition - 50
+     	}, "slow");
+     });
+
+
+     const nav = $("#navigation");
+	 const navTop = nav.offset().top;
+
+	 $(window).on("scroll", stickyNavigation);
+
+	 function stickyNavigation() {
+
+	 	const body = $("body");
+
+	 	if($(window).scrollTop() >= navTop) {
+	 		body.css("padding-top", nav.outerHeight() + "px");
+	 		body.addClass("fixedNav");
+	 	}
+	 	else {
+	 		body.css("padding-top", 0);
+	 		body.removeClass("fixedNav");
+	 	} 
+
+	 }
 });
