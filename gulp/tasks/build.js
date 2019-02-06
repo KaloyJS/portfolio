@@ -1,4 +1,8 @@
-var gulp     = require('gulp');
+	var gulp     = require('gulp');
+		
+
+	
+
 
 
 	gulp.task('copyGeneralFiles', function(){
@@ -9,3 +13,6 @@ var gulp     = require('gulp');
 		return gulp.src(pathsToCopy)
 			.pipe(gulp.dest("./docs"));
 	});
+
+
+	

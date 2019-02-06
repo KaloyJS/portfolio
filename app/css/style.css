@@ -322,7 +322,7 @@ body {
 .footerSection {
 	background-color: #000;
 	color: #fff;
-	padding: 30px 5px;
+	padding: 10px 5px;
 }
 
 .footerSection {
@@ -331,7 +331,7 @@ body {
 
 #navigation {
 	background-color: #ffa6c9;
-	padding: 20px 10px;
+	padding: 10px 10px;
 	z-index: 100;
 	width: 100%;
 }
